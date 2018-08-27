@@ -19,6 +19,9 @@ c-exec.gif [HowStuffWorks](https://computer.howstuffworks.com/c.htm)
 
 #### Details:  
 Using [SDL_gifwrap](https://github.com/grimfang4/SDL_gifwrap)  
-by Jonathan Dearborn  
+by Jonathan Dearborn.  
+after clone use:  
+`git submodule update --init --recursive`  
+in the repo's dir.  
 
 ...see the rest in the source.
