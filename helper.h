@@ -5,8 +5,8 @@
 // #include <SDL2/SDL_image.h>
 #include <SDL2/SDL_ttf.h>
 
-SDL_Window   *Window;
-SDL_Renderer *Renderer;
+SDL_Window   extern *Window;
+SDL_Renderer extern *Renderer;
 
 void init (void);
 void exit_(void);
