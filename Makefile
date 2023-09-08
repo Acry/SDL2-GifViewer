@@ -1,5 +1,5 @@
 #CC=gcc
-CFLAGS   = -Wall -Wextra -mtune=native `sdl2-config --cflags`
+CFLAGS   = -no-pie -Wall -Wextra -mtune=native `sdl2-config --cflags`
 LDFLAGS  = `sdl2-config --libs` -lSDL2_image -lSDL2_ttf -lgif -lm
 
 debug:helper.c SDL_gifwrap/SDL_gifwrap.c main.c
